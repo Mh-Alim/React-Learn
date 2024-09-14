@@ -7,19 +7,24 @@ import { CountContext } from './components/context/countContext'
 import CompB from './components/Memo/CompB'
 import CompF from './components/Memo/CompF'
 import Main from './components/hook/UseId/Main'
+import CtReferral from './components/whatsappShare/CtReferral'
+import DivToImage from './components/whatsappShare/DivToImage'
 
-
+import Image from './components/Image'
+import CopyContent from './components/CopyContent'
 
 
 function App() {
+  
 
 
   return (
     <div>
-      {/* <CompF /> */}
-       {/* <CompA/> */}
-       {/* <Main /> */}
-       <Main />
+      {/* <CtReferral /> */}
+      {/* <DivToImage /> */}
+      {/* <Image /> */}
+      this is app
+      <CopyContent />
     </div>
   )
 }
